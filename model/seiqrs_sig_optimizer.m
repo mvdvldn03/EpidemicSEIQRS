@@ -1,4 +1,4 @@
-close all %March 1 to October 11
+close all %Actual Model, using sample data from 3/1/2020 to 10/11/2020
 
 %Fixed Terms (Table 1)
 ps = 0.7;
