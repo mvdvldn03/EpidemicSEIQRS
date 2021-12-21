@@ -7,7 +7,7 @@ options = Options()
 options.add_argument("--headless")
 options.add_argument("--window-size=1920x1080")
 options.add_argument("user-agent=____")
-driver = webdriver.Chrome(options=options, executable_path='/chromedriver')
+driver = webdriver.Chrome(options=options, executable_path='./chromedriver')
 
 def get_cases():
     x = driver.find_elements_by_xpath("//div[@class='_26ZypQtR8sLPiXEB1jzI1b']/*[name()='svg']")[2]
