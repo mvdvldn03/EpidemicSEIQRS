@@ -10,7 +10,7 @@ options = Options()
 options.add_argument("--headless")
 options.add_argument("--window-size=1920x1080")
 options.add_argument("user-agent=____")
-driver = webdriver.Chrome(options=options, executable_path='/chromedriver')
+driver = webdriver.Chrome(options=options, executable_path='./chromedriver')
 
 #IHME - starts collecting data on February 4 (35 days)
 def get_cases():
